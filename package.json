@@ -1,0 +1,31 @@
+{
+  "name": "@jayesh_11/buttonjs",
+  "version": "0.0.1",
+  "description": "test package for button",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "keywords": [],
+  "author": "jayesh_11",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "@rollup/plugin-typescript": "^11.1.0",
+    "@types/react": "^18.0.33",
+    "react": "^18.2.0",
+    "rollup": "^3.20.2",
+    "rollup-plugin-dts": "^5.3.0",
+    "typescript": "^5.0.4"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "tslib": "^2.5.0"
+  }
+}
