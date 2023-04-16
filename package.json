@@ -1,9 +1,9 @@
 {
   "name": "@jayesh_11/buttonjs",
-  "version": "0.0.1",
+  "version": "0.0.7",
   "description": "test package for button",
   "scripts": {
-    "rollup": "rollup -c"
+    "build": "rollup -c"
   },
   "keywords": [],
   "author": "jayesh_11",
